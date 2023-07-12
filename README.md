@@ -262,9 +262,9 @@ Pada tahap ini dilakukan proses pelatihan untuk mendapatkan model dengan perform
 - Metrik evaluasi yang digunakan adalah *Mean Square Error* (MSE), *Root Mean Square Error* (RMSE), dan *R Square* (R2 Score)
 
 - MSE melakukan pengurangan nilai data aktual dengan data peramalan dan hasilnya dikuadratkan (*squared*) kemudian dijumlahkan secara keseluruhan dan membaginya dengan banyaknya data yang ada. Rumus dari MSE adalah sebagai berikut 
-  $$
+  ```math
   MSE = \frac{1}{n} \Sigma_{i=1}^n({y}-\hat{y})^2
-  $$
+  ```
   Diketahui:
 
   - n = Jumlah Data
